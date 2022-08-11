@@ -13,8 +13,8 @@ from pymongo import MongoClient
 cluster = MongoClient("mongodb+srv://toni:1234@cluster0.wi9ojnj.mongodb.net/?retryWrites=true&w=majority")
 
 
-db = cluster["FirstMongoDBApp"]
-collection = db["Diccionario"]
+db = cluster["InventarySystem"]
+collection = db["articles"]
 
 
 #AddingArticles-------------------------------------------------------------------
